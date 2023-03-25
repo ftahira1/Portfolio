@@ -24,7 +24,22 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
-a {
+nav a::after{
+    content: ' ';
+    width: 0% ;
+    display: block;
+    height: 1px;
+    background:rgb(6, 231, 17);
+    position: relative;
+    right: 0%;
+    transition: all 1s linear;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+nav a {
    color: #2a787c; 
    text-decoration: none;
 }
@@ -43,10 +58,7 @@ li {
 }
 
 #image {
-    padding: 150px;
-    width: 100%;
-    background-image: url("../images/img-1.jpeg");
-    background-size:cover
+    
 }
 
 .side {
@@ -61,7 +73,7 @@ li {
 }
 
 #style {
-    padding: 60px;
+    padding: 100px;
 }
 
 #style-2 {
@@ -70,9 +82,9 @@ li {
 
 #about-me {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    padding: 10px;
-    display: flex;
-    justify-content: flex-end;
+    padding-left: 35%;
+    position: relative;
+    bottom: 200px;
 }
 
 #work {
@@ -87,4 +99,14 @@ img {
 
 #contact-me {
     padding-top: 30px;
+}
+
+#list {
+    padding: 4%;
+}
+
+#profile {
+    width: 18vh;
+    position: relative;
+    left: -450px;
 }
