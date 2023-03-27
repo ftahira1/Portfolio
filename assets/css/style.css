@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
 }
@@ -57,8 +58,7 @@ ul {
     font-size: 45px;
     float: left; 
     background-color: rgb(70, 71, 71);
-    display: flex;
-    justify-content: center;
+    padding: 11px;
 
 }
 
@@ -89,11 +89,6 @@ ul {
     padding-top: 30px
 }
 
-img {
-    width: 33%;
-    position: relative;
-    left: 22%
-}
 
 #contact-me {
     padding-top: 30px;
@@ -109,4 +104,61 @@ footer li {
 }
 
 
+#profile {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+}
 
+#projects {
+    width: 33%;
+    position: relative;
+    left: 22%
+}
+
+@media screen and (max-width: 1128px) {
+    nav li{
+        padding-right: 70px;
+    }
+}
+
+@media screen  and (max-width: 1024px) {
+    nav li {
+        padding-right: 40px;
+    }
+    #name {
+        padding: 23px;
+        font-size: 30px
+    }
+
+    
+}
+@media screen and (max-width: 768px) {
+    nav li {
+        padding-right: 20px;
+    }
+    #name {
+        font-size: 23px;
+        padding: 26px;
+    }
+
+}
+
+
+@media screen and (max-width: 554px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    ul {
+        display: inline-block;
+    }
+    li {
+        padding-top: 10%;
+    }
+    #name {
+        padding: 72px;
+        display: flex;
+        justify-content: center;
+    }
+}
