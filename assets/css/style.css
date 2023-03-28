@@ -95,12 +95,12 @@ ul {
 }
 
 #list {
-    padding: 4%;
+    padding-top: 70px;
     display: inline-flex;
 }
 
 footer li {
-    padding-left:50px;
+    padding-left:40px;
 }
 
 
@@ -130,6 +130,11 @@ footer li {
         padding: 23px;
         font-size: 30px
     }
+    footer li {
+        padding-left: 18px;
+        font-size: 17px;
+    }
+
 
     
 }
@@ -160,5 +165,17 @@ footer li {
         padding: 72px;
         display: flex;
         justify-content: center;
+    }
+    #list {
+        padding: 0;
+        display: inline-block;
+    }
+    footer li {
+        padding-bottom: 1px;
+        font-size: 17px;
+    }
+
+    #about-me {
+        
     }
 }
