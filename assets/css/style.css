@@ -75,6 +75,7 @@ nav a:hover::after{
 
   #image {
     min-height: 200px;
+    padding: 1%
   }
   article{
     min-height: 350px;
@@ -89,6 +90,8 @@ nav a:hover::after{
 
   #about-me {
     padding: 5%;
+    text-align: center;
+    line-height: inherit; 
   }
 
   #work {
@@ -101,7 +104,7 @@ nav a:hover::after{
   }
 
   #work:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     border-style: dashed;
     filter: brightness(1);
     cursor: grab;
@@ -180,8 +183,11 @@ nav a:hover::after{
   #style {
   display: flex;
   flex: 0 1 27%;
+  justify-content: flex-end;
 }
 
 #about-me {
-  padding: 9%
+  padding-top: 10%;
+  text-decoration: underline;
+  text-align: justify;
 }
