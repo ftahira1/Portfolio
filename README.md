@@ -14,14 +14,13 @@ This is how my page looks on Ipad and Desktop :
 <img src="./assets/images/desktop.jpg"/>
 This is how my page looks in an Iphone and mobile devices: <img src="./assets/images/iphone.jpg">
 
-Click here for deployed page: <a href="https://ftahira1.github.io/Portfolio/">
+Click here for deployed page: <a href="https://ftahira1.github.io/Portfolio/">Portfolio</a>
 
-Click here for my Github repository: <a href="https://github.com/ftahira1/Portfolio.git">
-
+Click here for my Github repository: <a href="https://github.com/ftahira1/Portfolio.git">Github</a>
 
 
 ## Credits
-Click here for Github page: <a href="https://github.com/coding-boot-camp/urban-octo-telegram.git/">urban-octo-telegram</a>
+N/A
 
 ## License
 MIT license
